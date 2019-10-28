@@ -1,0 +1,30 @@
+.eael-logo-carousel.grayscale-normal img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.eael-logo-carousel.grayscale-normal .swiper-slide:hover img {
+	-webkit-filter: none;
+	filter: none;
+}
+
+.eael-logo-carousel.grayscale-hover .swiper-slide:hover img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.eael-logo-carousel.swiper-container .swiper-slide {
+	text-align: center;
+}
+
+.eael-logo-carousel.swiper-container .swiper-slide img {
+	width: auto;
+}
+
+.eael-logo-carousel .eael-logo-carousel-title a {
+	color: inherit;
+}
+
+.eael-logo-carousel .swiper-button-prev {
+	transform: rotate(180deg);
+}

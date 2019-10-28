@@ -1,0 +1,11 @@
+.eael-particles-section {
+  position: relative;
+  z-index: 1;
+}
+
+canvas.particles-js-canvas-el {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
